@@ -1,0 +1,105 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- File: Types/Types.yaml
+- Name: DigitalAlarmAreaDemo1
+  Id: g=aec1770938d23cd0100971e095d78a0e
+  Type: DigitalAlarmAreaDemo
+  Children:
+  - Class: Reference
+    Target: ns=13;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Id: g=ebc1c68dc8a3db5ff679504a0c9a6359
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=2efd083c55f199ec470bc9195180a90c
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Id: g=bae93533290038d1d908ea0fc83243fe
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/ScreenAlarms/AlarmVariableArea"
+      Children:
+      - Name: Mode
+        Id: g=7919177cb7d8db83ae710c4a83f23fea
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=71a1060c83d0bdb2d6c3435ae0d81179
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: Area
+    Id: g=cd021bc186065c7b3fa13e86a1f10a4d
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 5
+  - Name: Message
+    Id: g=75a0e00c18b57add9a8f73b4e6d9ed84
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Children:
+    - Name: StringFormatter1
+      Id: g=33a762c375d91a23274a8c8c8a0c27f8
+      Type: StringFormatter
+      Children:
+      - Name: Format
+        Id: g=190039f80bafd823806d9928f8ee64d9
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        ReferenceType: HasParameter
+        Value: {"LocaleId":"en-US","Text":"This is my alarm (Area{0})"}
+      - Name: ns=2;Source0
+        Id: g=ec7ac2dcd17a14580dd9db146afef721
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=985a1f95ca7fa7189689e124ff48d823
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Area"
+          Children:
+          - Name: IsPull
+            Id: g=8f8d22eed574b2f4a2d16948e546dd37
+            Type: BaseVariableType
+            DataType: Boolean
+            Value: true
+      - Name: IsPull
+        Id: g=21a973afbb5244942ceb93f54f2b2f49
+        Type: PropertyType
+        DataType: Boolean
+        ReferenceType: HasComponent
+        Value: true
+  - Name: AutoAcknowledge
+    Id: g=97eabb8aede7e16e197dc2ca5eb7e6c1
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Id: g=fc4f15a9b8ec860d6f077e01faca7d59
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Severity
+    Id: g=5f9b71260b7a9654f77bba6451fb36aa
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1

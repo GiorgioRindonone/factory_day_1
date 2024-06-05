@@ -1,0 +1,7 @@
+Name: ScreenAlarms
+Type: FolderType
+Children:
+- Name: AlarmVariableArea
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

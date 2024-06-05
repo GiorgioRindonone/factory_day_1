@@ -1,0 +1,15 @@
+Name: ScreenConverterDemo1
+Type: FolderType
+Children:
+- Name: ScreenConverter_ColorDemo
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: ScreenConverter_TextSpinner
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: ScreenConverter_Checkbox
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false

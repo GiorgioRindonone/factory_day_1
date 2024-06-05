@@ -1,0 +1,54 @@
+Name: Converters
+Type: ConvertersCategoryFolder
+Children:
+- Name: MachineStatus_Color
+  Id: g=b92894e016c95042d34456113004e5b9
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 0
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#eb001b"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 1
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#15e100"
+    - Name: Pair2
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: UInt32
+        ModellingRule: None
+        Value: 2
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#f8e71c"

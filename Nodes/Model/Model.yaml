@@ -1,0 +1,91 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: ObjectMachine
+  Id: g=366f8c94844d3f7c16f2fbdc2b2f21ea
+  Supertype: BaseObjectType
+  Children:
+  - Name: speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: error
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: ObjectMachine2
+  Id: g=92679da490ce7a40b672e071660843fa
+  Type: ObjectMachine
+  Children:
+  - Name: speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 10.0
+  - Name: name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "macchina 2"
+  - Name: enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: error
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: ObjectMachine1
+  Type: ObjectMachine
+  Children:
+  - Name: speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 10.0
+  - Name: name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "macchina 1"
+  - Name: enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: error
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: ObjectMachinePopup
+  Type: BaseObjectType
+  Children:
+  - Name: Variable1
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- File: ScreenConverterDemo1/ScreenConverterDemo1.yaml
+- Name: ObjectMachine3
+  Id: g=8a25a9eecacacd4fe43ce13ae7e2846a
+  Type: ObjectMachine
+  Children:
+  - Name: speed
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 999.0
+  - Name: name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "macchina 1"
+  - Name: enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: error
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- File: ScreenAlarms/ScreenAlarms.yaml
