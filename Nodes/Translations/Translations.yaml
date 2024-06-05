@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [13,2],
+    "Dimensions": [16,2],
     "Body": [
      "","en-US",
      "Timestamp","Timestamp",
@@ -23,6 +23,9 @@ Children:
      "Acked","Acked",
      "Confirmed","Confirmed",
      "Confirm All","Confirm All",
-     "Severity","Severity"
+     "Severity","Severity",
+     "To","To",
+     "Refresh","Refresh",
+     "From","From"
     ]
    }
