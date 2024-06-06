@@ -8,7 +8,6 @@ Children:
   - Name: speed
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
   - Name: name
     Type: BaseDataVariableType
     DataType: String
@@ -16,11 +15,9 @@ Children:
   - Name: enabled
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: error
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
 - Name: ObjectMachine2
   Id: g=92679da490ce7a40b672e071660843fa
   Type: ObjectMachine
@@ -40,7 +37,6 @@ Children:
   - Name: error
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
 - Name: ObjectMachine1
   Type: ObjectMachine
   Children:
@@ -59,14 +55,12 @@ Children:
   - Name: error
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
 - Name: ObjectMachinePopup
   Type: BaseObjectType
   Children:
   - Name: Variable1
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
 - File: ScreenConverterDemo1/ScreenConverterDemo1.yaml
 - Name: ObjectMachine3
   Id: g=8a25a9eecacacd4fe43ce13ae7e2846a
@@ -87,5 +81,4 @@ Children:
   - Name: error
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
 - File: ScreenAlarms/ScreenAlarms.yaml

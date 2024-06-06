@@ -55,7 +55,6 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       Children:
       - Name: KeyValueConverter1
         Type: ValueMapConverter
@@ -69,7 +68,7 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "../../../../VariableStatus"
-        - Name: Pairs
+        - Name: ns=2;Pairs
           Type: BaseObjectType
           Children:
           - Name: Pair
@@ -78,7 +77,6 @@ Children:
             - Name: Key
               Type: BaseDataVariableType
               DataType: UInt32
-              Value: 0
             - Name: Value
               Type: BaseDataVariableType
               DataType: String
@@ -109,7 +107,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 0.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -128,4 +125,3 @@ Children:
   - Name: VariableStatus
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0

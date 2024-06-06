@@ -20,12 +20,10 @@ Children:
     Id: g=ebc1c68dc8a3db5ff679504a0c9a6359
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=2efd083c55f199ec470bc9195180a90c
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Id: g=bae93533290038d1d908ea0fc83243fe
@@ -53,7 +51,6 @@ Children:
     Id: g=75a0e00c18b57add9a8f73b4e6d9ed84
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     Children:
     - Name: StringFormatter1
       Id: g=33a762c375d91a23274a8c8c8a0c27f8
@@ -103,3 +100,12 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 1
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward

@@ -19,12 +19,10 @@ Children:
     Id: g=c43677808f5838c9f46a3fa75fc92520
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Id: g=55a0a59a57c49f09c12396b63f528d67
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: LastEvent
     Id: g=2e9447b235f15d41cb136e0cef3848da
     Type: BaseDataVariableType
@@ -38,4 +36,12 @@ Children:
     Id: g=edd54b2fb4c92f93b9f4eb85073c466d
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
+  - Class: Reference
+    Target: ns=13;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=13;i=135
+    Direction: Forward
