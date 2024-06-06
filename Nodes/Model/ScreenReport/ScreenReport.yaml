@@ -1,0 +1,14 @@
+Name: ScreenReport
+Id: g=eca29fb58c579904444f087b91a4aa2d
+Type: FolderType
+Children:
+- Name: PathGenerazioneReport
+  Id: g=4d32792a38542ac0dae96a02e1e53844
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: NameGenerazioneReport
+  Id: g=ab7963254b99708ec8263111b7d34d91
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

@@ -1,0 +1,29 @@
+Name: RecipesVariables
+Id: g=dd7348d215bed2c1b06b409d62817493
+Type: FolderType
+Children:
+- Name: Area
+  Id: g=f4016c1056affeddba2c6307beb2531b
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Sin
+  Id: g=659a12f0350ad8f2a83f2fa1fc874910
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Enabled
+  Id: g=35a16a00ed65852ac7ddececa9b9c7da
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Errors
+  Id: g=37027acd3f19b592148074e5d3798bbd
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: name
+  Id: g=93543ec6c94c9005b51083286d3782ce
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"

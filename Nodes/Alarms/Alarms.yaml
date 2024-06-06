@@ -64,7 +64,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ReferenceType: HasParameter
-        Value: {"LocaleId":"en-US","Text":"This is my alarm (Area{0})"}
+        Value: {"NamespaceIndex":7,"TextId":"This is my alarm (Area{0})"}
       - Name: ns=2;Source0
         Id: g=ec7ac2dcd17a14580dd9db146afef721
         Type: BaseDataVariableType

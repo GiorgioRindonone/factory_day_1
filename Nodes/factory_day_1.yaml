@@ -1,53 +1,66 @@
 Name: factory_day_1
+Id: g=9fa73a26db7f9c5ebf278241db6a0349
 Type: ProjectFolder
 Children:
 - Name: Localization
+  Id: g=5be854cc5e4844fad606141340cb9f69
   Type: PropertyGroup
   Children:
   - Name: Locales
+    Id: g=f42ee3db13f0b452c508a812f594b946
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: ["en-US"]
+    Value: ["en-US","it-IT"]
   - Name: LocaleFallbackList
+    Id: g=1e84473d0ecc91d3cfbc5528031678fc
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["en-US"]
 - Name: Authentication
+  Id: g=d8a0c25b418fed4d5ffbfef095839a8a
   Type: PropertyGroup
   Children:
   - Name: DefaultUserFolder
+    Id: g=45b60ccc34bdfb72edb4ed430ddbd28d
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/factory_day_1/Security/Users"
     Children:
     - Name: Kind
+      Id: g=f63afcc9dc1c45b802fb48ce98212fb5
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
 - Name: PasswordPolicy
+  Id: g=d08a3df60494e0d626dc1358875e463a
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
+    Id: g=1b826e5dcb343c45c86a91d202bf0d36
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
   - Name: EnforcePasswordHistory
+    Id: g=d5ab389718202d3e6a35a2ab3d77b7bb
     Type: BaseDataVariableType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
+    Id: g=a9a52643004902fa4390a6aed254863a
     Type: BaseDataVariableType
     DataType: UInt16
     Value: 0
   - Name: MinimumPasswordLength
+    Id: g=d8bed05cd85d0ef0e5aa10d4cdaf49e0
     Type: BaseDataVariableType
     DataType: Byte
     Value: 8
 - Name: AlarmConfiguration
+  Id: g=26f073b73097916054699cd470cf7d91
   Type: PropertyGroup
 - File: UI/UI.yaml
 - File: Model/Model.yaml
@@ -65,3 +78,14 @@ Children:
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
 - File: AlarmTypes/AlarmTypes.yaml
+- Name: RecipeSchema1
+  Id: g=bd11ca7423f6214d7c90e9b92b0cac0f
+  Type: Alias
+  DataType: NodeId
+  Value: "/Objects/factory_day_1/Recipes/RecipeSchema1/EditModel"
+  Children:
+  - Name: Kind
+    Id: g=3526c3632c2a27e9cead46f885a50c60
+    Type: PropertyType
+    DataType: NodeId
+    Value: "/Objects/factory_day_1/Recipes/RecipeSchema1/EditModel"

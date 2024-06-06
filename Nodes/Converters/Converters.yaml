@@ -1,4 +1,5 @@
 Name: Converters
+Id: g=ad4b3efe479caaafcfb4c1280545eba1
 Type: ConvertersCategoryFolder
 Children:
 - Name: MachineStatus_Color
@@ -7,47 +8,57 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: Pairs
+    Id: g=1e9b06d7fafea78329cae63d23c9d1b9
     Type: BaseObjectType
     ModellingRule: None
     Children:
     - Name: Pair
+      Id: g=af172ad683eac35d9348e1b8151df5cc
       Type: ValueMapPair
       ModellingRule: None
       Children:
       - Name: Key
+        Id: g=8a5aa133b32edca382d802a99c9ae783
         Type: BaseDataVariableType
         DataType: UInt32
         ModellingRule: None
         Value: 0
       - Name: Value
+        Id: g=3d5a0ad5ac66c33a4514636a23aec607
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: None
         Value: "#eb001b"
     - Name: Pair1
+      Id: g=e31fdd2d773fba01fdb863e8267b2399
       Type: ValueMapPair
       ModellingRule: None
       Children:
       - Name: Key
+        Id: g=c73316dcc94d8720c51793c3e00d7162
         Type: BaseDataVariableType
         DataType: UInt32
         ModellingRule: None
         Value: 1
       - Name: Value
+        Id: g=ffc167b2acd1a22d7df6f237265f4379
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: None
         Value: "#15e100"
     - Name: Pair2
+      Id: g=37a75da60aa6e389efbe2fd77f86aed7
       Type: ValueMapPair
       ModellingRule: None
       Children:
       - Name: Key
+        Id: g=e34511830bdc0fbf357b9c4c5f5ed4d3
         Type: BaseDataVariableType
         DataType: UInt32
         ModellingRule: None
         Value: 2
       - Name: Value
+        Id: g=3d2425e6b77bf320d1a192aad3d320e0
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: None

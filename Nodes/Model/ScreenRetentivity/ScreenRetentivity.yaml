@@ -1,0 +1,20 @@
+Name: ScreenRetentivity
+Id: g=8849fe6ed121bc3d9388a70edd8af235
+Type: FolderType
+DisplayName: {"LocaleId":"en-US","Text":"Iniziale"}
+Children:
+- Name: Variable1
+  Id: g=72df8ada23f9982e1651175edf18a36b
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable2
+  Id: g=5b950657eb2d2a89a5c01482101e0d4a
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable3
+  Id: g=3391ddfa11d43276772c05825cb72e75
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

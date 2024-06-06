@@ -1,3 +1,13 @@
 Name: Groups
 Id: g=33ac98afcbbcd645bc8146197074cc43
 Type: GroupsCategoryFolder
+Children:
+- Name: Sviluppatori
+  Id: g=09c207b4bd960e1d27949ac479db002b
+  Type: GroupType
+- Name: Manutenzione
+  Id: g=d24159153bf29c1985cef9cff4fa7bf7
+  Type: GroupType
+- Name: Qualità
+  Id: g=26b86a3cedea08afbe7ba0949ca9256d
+  Type: GroupType

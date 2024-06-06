@@ -1,4 +1,5 @@
 Name: Model
+Id: g=07e86c4c4fd9ac778f1da7d084b83cd4
 Type: ModelCategoryFolder
 Children:
 - Name: ObjectMachine
@@ -6,18 +7,22 @@ Children:
   Supertype: BaseObjectType
   Children:
   - Name: speed
+    Id: g=2462c8f29219ad382f2b49b1f902ca8c
     Type: BaseDataVariableType
     DataType: Float
     Value: 0.0
   - Name: name
+    Id: g=b8c39740b6124ff7d538c3ba10e6d3fb
     Type: BaseDataVariableType
     DataType: String
     Value: "0"
   - Name: enabled
+    Id: g=686144ea4ff86086a8987de2fef40eaf
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
   - Name: error
+    Id: g=fc87ca29f77fdf3d08e862a32d0ed229
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
@@ -26,44 +31,55 @@ Children:
   Type: ObjectMachine
   Children:
   - Name: speed
+    Id: g=22f0d2c94a3be661566610f01b4e9fa8
     Type: BaseDataVariableType
     DataType: Float
     Value: 10.0
   - Name: name
+    Id: g=ced229beb32f58176aa1f89f7983ac6a
     Type: BaseDataVariableType
     DataType: String
     Value: "macchina 2"
   - Name: enabled
+    Id: g=d89bf278050ce93b76b9fa6f565f71c8
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
   - Name: error
+    Id: g=95812a01bdd0380bd128adc88ac36045
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
 - Name: ObjectMachine1
+  Id: g=ba5c1e779114efc83b3eb2750530045e
   Type: ObjectMachine
   Children:
   - Name: speed
+    Id: g=d2523603a688a3e69520784888710330
     Type: BaseDataVariableType
     DataType: Float
     Value: 10.0
   - Name: name
+    Id: g=256b4f82890a1710a6b7b6b3bf329bee
     Type: BaseDataVariableType
     DataType: String
     Value: "macchina 1"
   - Name: enabled
+    Id: g=9805ff8bb1a58051e3616d2556c88aaa
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
   - Name: error
+    Id: g=e7003f10bf665ba078db9865aff5f350
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
 - Name: ObjectMachinePopup
+  Id: g=dabc4eb19767a8a6742a412cd9815523
   Type: BaseObjectType
   Children:
   - Name: Variable1
+    Id: g=8b103d94f230dacad25c0caef004f279
     Type: BaseDataVariableType
     DataType: Int32
     Value: 0
@@ -73,19 +89,27 @@ Children:
   Type: ObjectMachine
   Children:
   - Name: speed
+    Id: g=f1757a0a77127d3eb942edf9e3f028f5
     Type: BaseDataVariableType
     DataType: Float
     Value: 999.0
   - Name: name
+    Id: g=0ee01ccc8a3c1413dadfcea73aba8ba0
     Type: BaseDataVariableType
     DataType: String
     Value: "macchina 1"
   - Name: enabled
+    Id: g=9c54a0864520009b594d75b11bea8b02
     Type: BaseDataVariableType
     DataType: Boolean
     Value: true
   - Name: error
+    Id: g=58a86551e2ab5880b96b98f60e24406b
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
 - File: ScreenAlarms/ScreenAlarms.yaml
+- File: RecipesVariables/RecipesVariables.yaml
+- File: ScreenLocales/ScreenLocales.yaml
+- File: ScreenRetentivity/ScreenRetentivity.yaml
+- File: ScreenReport/ScreenReport.yaml
