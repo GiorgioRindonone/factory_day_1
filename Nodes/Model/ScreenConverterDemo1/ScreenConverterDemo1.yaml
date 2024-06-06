@@ -1,12 +1,16 @@
 Name: ScreenConverterDemo1
+Id: g=495945a554070a556a6ef2227fe171cf
 Type: FolderType
 Children:
 - Name: ScreenConverter_ColorDemo
+  Id: g=f3e9e24cf76c501b66e3a8668e550e17
   Type: BaseDataVariableType
   DataType: Int32
 - Name: ScreenConverter_TextSpinner
+  Id: g=437e8cfcbfc6798d42893fa4955a1439
   Type: BaseDataVariableType
   DataType: Int32
 - Name: ScreenConverter_Checkbox
+  Id: g=1bd68abd2ed12318ce722e4dfb204fc2
   Type: BaseDataVariableType
   DataType: Boolean

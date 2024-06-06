@@ -1,4 +1,5 @@
 Name: DataStores
+Id: g=2ca2509d1142fc7542da0e57b9e7316d
 Type: DataStoresCategoryFolder
 Children:
 - Name: DbAlarmsHistory
@@ -6,9 +7,11 @@ Children:
   Type: SQLiteStore
   Children:
   - Name: Tables
+    Id: g=b642d7d07402a7d896cd5392107a7d5a
     Type: BaseObjectType
     Children:
     - Name: AlarmsEventLogger1
+      Id: g=403a402e56e0b34842060249857f074a
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -24,42 +27,59 @@ Children:
         Target: ns=19;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=985c48e2a2325dadc832820d6de313d0
         Type: BaseObjectType
         Children:
         - Name: ConfirmedState_Id
+          Id: g=c45a000fd5755f3c718fd99faee1b0fa
           Type: StoreColumn
           DataType: Boolean
         - Name: LocalTime
+          Id: g=e8f7cac9f845926092736d802c6a998e
           Type: StoreColumn
           DataType: DateTime
         - Name: Area
+          Id: g=19a94c7f7af263f30e0fce136da63107
           Type: StoreColumn
           DataType: Int32
         - Name: ActiveState_Id
+          Id: g=b3a35361e3a4629b6e863c3e3bc02202
           Type: StoreColumn
           DataType: Boolean
         - Name: AckedState_Id
+          Id: g=6dbfcdbb53a91adf70bc5863dde4b906
           Type: StoreColumn
           DataType: Boolean
         - Name: ConditionName
+          Id: g=1d4ecd5090ab2aa68015686dda3010c3
           Type: StoreColumn
           DataType: String
         - Name: EnabledState_Id
+          Id: g=7e21239c0b6bfa3b8364da8f7fb19757
           Type: StoreColumn
           DataType: Boolean
         - Name: 'Message_en-US'
+          Id: g=f261213246895837cc31f9735812d4b3
           Type: StoreColumn
           DataType: String
         - Name: Severity
+          Id: g=fb482a05f868ab4a5c4f314e3383fe71
           Type: StoreColumn
           DataType: UInt16
         - Name: SourceName
+          Id: g=b994fcf1cc78db20be1307e99a9f6db0
           Type: StoreColumn
           DataType: String
         - Name: Time
+          Id: g=651eb8694e778a68ec5a27493bc1fbf6
           Type: StoreColumn
           DataType: UtcTime
+        - Name: 'Message_it-IT'
+          Id: g=f477e9a748778a6403bd2b232a2ba175
+          Type: StoreColumn
+          DataType: String
       - Name: RecordLimit
+        Id: g=6e22e800a4e2724ec6b57ab27d8c9b00
         Type: BaseDataVariableType
         DataType: UInt32
         Value: 30000
@@ -70,20 +90,24 @@ Children:
     Target: ns=21;i=33
     Direction: Forward
   - Name: MaxColumnNameLength
+    Id: g=81c6db670c7c88fc5cd33614c5b40467
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
   - Name: MaxColumnCount
+    Id: g=57eebd281f86d725d853d188714cb608
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
   - Name: DataTypeCompatibilityMap
+    Id: g=b2ef18bc7df1d897a43b049ed8a94147
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
   - Name: Status
+    Id: g=f3ccb95ca9924ca1eafef3c9f8b54434
     Type: PropertyType
     DataType: StoreStatus
     AccessLevel: Read
@@ -122,6 +146,121 @@ Children:
     Target: ns=19;i=59
     Direction: Forward
   - Name: Filename
+    Id: g=5b08d52f56836066c15ee5c3a7814d3e
     Type: BaseDataVariableType
     DataType: String
     Value: "DbAlarmsHistory"
+- Name: DbRecipesDemo
+  Id: g=5f6f768606755f4f1c3c9162dd63965b
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Id: g=b0d8c7c2cc4387fd749e3db50c71cf34
+    Type: BaseObjectType
+    Children:
+    - Name: RecipeSchema1
+      Id: g=e736a67b0198da9b4fc9c4738a55d6a5
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=19;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=19;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=19;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=19;i=20
+        Direction: Forward
+      - Name: Columns
+        Id: g=6bff83e3e6a9916db30e89441b1038f3
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Id: g=9cb914eff6c7db38271c444c35033ad8
+          Type: StoreColumn
+          DataType: String
+        - Name: /Area
+          Id: g=2001bbf4b151cfd74fff5aa7e0e5d119
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Sin
+          Id: g=ac2c4db1fadd6db6401f493e5a410733
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Enabled
+          Id: g=1fcc9643b9717f762252d82d54a6f4cf
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /Errors
+          Id: g=42ed81c5b1247c8715290ffff23ff320
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /name
+          Id: g=3cd2cf621c2168ee1b889c05bb10bb38
+          Type: StoreColumn
+          DataType: String
+  - Class: Reference
+    Target: ns=21;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=21;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Id: g=5fdbca67a6465eea3cd8401f7dbec06e
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Id: g=a07bb8da634a67c9688cb40e00c10a79
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Id: g=c4ac6f00bce0dbb367367e3a50c35e24
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Id: g=46b3088aff048da33bc48ecad2de4407
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=19;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=59
+    Direction: Forward

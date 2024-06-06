@@ -1,0 +1,24 @@
+Name: ScreenLocales
+Id: g=d4c49b0e7d538e709be4754a233d49a6
+Type: FolderType
+Children:
+- Name: AnalogVariable
+  Id: g=a94d57d19002ecf6a6c63bb8b3e5740d
+  Type: AnalogItemType
+  DataType: Float
+  Children:
+  - Name: EURange
+    Id: g=27edafe2acc08fb1acf12d8727bc79b1
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Id: g=e7549444fc8e36126ec8afa196aa7b76
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+    - Name: High
+      Id: g=ac38127c65eb99a730f711970bb7ce48
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty

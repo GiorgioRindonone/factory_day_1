@@ -1,3 +1,7 @@
 Name: Roles
 Id: g=168315c4ba704e70bb13e35de715eb03
 Type: RolesCategoryFolder
+Children:
+- Name: RuoloNonFaccioNulla
+  Id: g=d0d0421bbb9058f12a40a1384f3d5489
+  Type: ns=1;RoleType

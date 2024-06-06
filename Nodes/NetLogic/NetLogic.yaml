@@ -1,2 +1,106 @@
 Name: NetLogic
+Id: g=d0248a3803e7fb22be1b50dd9d18cebd
 Type: NetLogicCategoryFolder
+Children:
+- Name: ImportAndExportTranslations
+  Id: g=049e44ca741d59d898556769c285d553
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=46b315bed6aa0df7c1fc0b234569fe59
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: CSVPath
+    Id: g=4ab4b2c313c60491906c3eaaf892f301
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+  - Class: Method
+    Name: ExportTranslations
+    Id: g=a73ad1bd2268e42bc36df917e4fb48b5
+  - Class: Method
+    Name: ImportTranslations
+    Id: g=6c5a5111d1a63adaa98ac9a15b4ef9e2
+  - Name: CharacterSeparator
+    Id: g=17971ec0e9761453da7e429cdeb0263f
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ","
+  - Name: WrapFields
+    Id: g=376b93f91a63123cd939b4451cff68b1
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: LocalizationDictionary
+    Id: g=026dc5c6f62d37fd1e3e8dc9fdc88737
+    Type: NodePointer
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Id: g=95294fee976b2d3ef67c8966d406d3e2
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/VariableTypes/BaseVariableType/LocalizationDictionary"
+- Name: ClockLogic
+  Id: g=ff2801fefbaa28bcc0267f59736dc1da
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: Time
+    Id: g=ae8106f988557140da71c739dbfbbe61
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Children:
+    - Name: Year
+      Id: g=f03726328e741eb29a3833e807c89f57
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Month
+      Id: g=eeb4d9a527179ebd83608a5e60874838
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Day
+      Id: g=6026e0954f4deafca6be39af80e9eac3
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Hour
+      Id: g=0ed7b6a8ea4ddf232429648b8dd4489f
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Minute
+      Id: g=0455c810e4ac20aab8f99a598de92814
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Second
+      Id: g=4ecd20ebeca7aa75ca818441d37dd043
+      Type: BaseDataVariableType
+      DataType: Int32
+  - Name: UTCTime
+    Id: g=fcb90257178edc61a65603eff875c0be
+    Type: BaseDataVariableType
+    DataType: DateTime
+    Children:
+    - Name: Year
+      Id: g=7220f94f3fcd7f0a06edeb969ed1a067
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Month
+      Id: g=5c3cff3bf04f63687db67b8aec2b81f3
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Day
+      Id: g=374a5c0d9644cc43efb43cddbe3bf4cc
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Hour
+      Id: g=c88af7d0a09f9af2fa27c61036e34aaf
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Minute
+      Id: g=d928c41148b90237b30ff3777f8db5fb
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Second
+      Id: g=1f4dd9c4ade0d6299aee2fa008c6c373
+      Type: BaseDataVariableType
+      DataType: Int32

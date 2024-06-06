@@ -1,6 +1,8 @@
 Name: ScreenAlarms
+Id: g=4ded8adbad2a175c16c2bfe52d5d12f3
 Type: FolderType
 Children:
 - Name: AlarmVariableArea
+  Id: g=8bd18dc766f490092c88267c1658c88b
   Type: BaseDataVariableType
   DataType: Int32

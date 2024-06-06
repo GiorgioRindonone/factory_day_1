@@ -1,4 +1,5 @@
 Name: AlarmTypes
+Id: g=9a73081ff2f40f0fc9202b5f7502d9fc
 Type: FolderType
 Children:
 - Name: AlarmType_DigitalAlarmAreaDemo
@@ -7,83 +8,109 @@ Children:
   DisplayName: {"LocaleId":"","Text":"DigitalAlarmAreaDemo"}
   Children:
   - Name: NormalState
+    Id: g=e0c5a9af0783b1673740530c48f16dfd
     Type: PropertyType
     DataType: NodeId
   - Name: EnabledState
+    Id: g=d62bf2cb9aaac1dd82a956780044c54c
     Type: TwoStateVariableType
     DataType: LocalizedText
     Children:
     - Name: Id
+      Id: g=55f06d1a85fb54b6cffabba28adc2d23
       Type: PropertyType
       DataType: Boolean
     - Name: ActiveState
+      Id: g=e0ef7a8013b44b231bd12368e4803832
       Type: TwoStateVariableType
       DataType: LocalizedText
       ReferenceType: HasTrueSubState
       Children:
       - Name: Id
+        Id: g=4b779704d3e0bd8674a6c3c2116fced1
         Type: PropertyType
         DataType: Boolean
+    - Class: Reference
+      Type: HasTrueSubState
+      Target: ns=0;i=9093
   - Name: ActiveState
+    Id: g=3081a1a22079841cd61a5b8618ff8b47
     Type: TwoStateVariableType
     DataType: LocalizedText
     Children:
     - Name: Id
+      Id: g=2c4225d2dc265457daf7b1a3c84231c6
       Type: PropertyType
       DataType: Boolean
   - Name: InputNode
+    Id: g=6f2d9e2278320de4f3dce35c4ab05907
     Type: PropertyType
     DataType: NodeId
   - Name: SuppressedOrShelved
+    Id: g=ae96166fab50204983a5cc1dc6558089
     Type: PropertyType
     DataType: Boolean
   - Name: AckedState
+    Id: g=59d4f06c65dd8fca849814a009964662
     Type: TwoStateVariableType
     DataType: LocalizedText
     Children:
     - Name: Id
+      Id: g=ca57f1008da3d298c92215763522f639
       Type: PropertyType
       DataType: Boolean
   - Class: Reference
     Target: ns=0;i=9111
     Direction: Forward
   - Name: ConditionClassId
+    Id: g=a0d031783225ae4b1f23359ccfbf9e43
     Type: PropertyType
     DataType: NodeId
   - Name: ConditionClassName
+    Id: g=280d7422eb85b5ec8814ef87e34bb877
     Type: PropertyType
     DataType: LocalizedText
   - Name: ConditionName
+    Id: g=8fcc2f16be0353b6222730559ecf469d
     Type: PropertyType
     DataType: String
   - Name: BranchId
+    Id: g=62da623ec31f4352bf0aa06a86b770c7
     Type: PropertyType
     DataType: NodeId
   - Name: Retain
+    Id: g=bf45e0a60c227a592b24adc38ccab767
     Type: PropertyType
     DataType: Boolean
   - Name: Quality
+    Id: g=37ee1d2adfc70dd3325fd9b4c0a504d6
     Type: ConditionVariableType
     DataType: StatusCode
     Children:
     - Name: SourceTimestamp
+      Id: g=0ccb8310d9a9cf471f07882fdb6ab5c0
       Type: PropertyType
       DataType: UtcTime
   - Name: LastSeverity
+    Id: g=6156807987efaf5bf2101c44e973baa6
     Type: ConditionVariableType
     DataType: UInt16
     Children:
     - Name: SourceTimestamp
+      Id: g=5b921fa97803841657e7dbb906b27e7b
       Type: PropertyType
       DataType: UtcTime
   - Name: Comment
+    Id: g=b70e3a24984f6354dd5d4b3359b03bac
     Type: ConditionVariableType
     DataType: LocalizedText
     Children:
     - Name: SourceTimestamp
+      Id: g=06185635f811a1e34b88b299d50ff29a
       Type: PropertyType
       DataType: UtcTime
   - Name: ClientUserId
+    Id: g=eb55cd6235059fdeb7acda5467504370
     Type: PropertyType
     DataType: String
   - Class: Reference
@@ -96,29 +123,38 @@ Children:
     Target: ns=0;i=9029
     Direction: Forward
   - Name: EventId
+    Id: g=10ef57c629dc1d2311837372cd04b474
     Type: PropertyType
     DataType: ByteString
   - Name: EventType
+    Id: g=717c71d2eb06ec85b0c8f5238655634c
     Type: PropertyType
     DataType: NodeId
   - Name: SourceNode
+    Id: g=8c6473b9156e7d5c042472dc74b0a9c6
     Type: PropertyType
     DataType: NodeId
   - Name: SourceName
+    Id: g=dbb5e031261c7eed309d31f5852a9373
     Type: PropertyType
     DataType: String
   - Name: Time
+    Id: g=049855f3460c0d4053d34fce913373ca
     Type: PropertyType
     DataType: UtcTime
   - Name: ReceiveTime
+    Id: g=af8cf17c0c59555620ab8b83cca90c33
     Type: PropertyType
     DataType: UtcTime
   - Name: Message
+    Id: g=3c123c8ebfbe6f0d5c8400111d787e17
     Type: PropertyType
     DataType: LocalizedText
   - Name: Severity
+    Id: g=83983d7013cb98070feb04f139a7d3f1
     Type: PropertyType
     DataType: UInt16
   - Name: Area
+    Id: g=430afae034821668b4b75a652f7a80a1
     Type: BaseDataVariableType
     DataType: Int32

@@ -1,2 +1,113 @@
 Name: Recipes
+Id: g=08b6e9535b691b5b11e5bbf5b14e1821
 Type: RecipesCategoryFolder
+Children:
+- Name: RecipeSchema1
+  Id: g=109707bf1959ccdeae6ef7fe12489245
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Id: g=de8415f836eed9e0fae77dc96c007eab
+    Type: BaseObjectType
+    Children:
+    - Name: Area
+      Id: g=9c64e5c7c7e3062a50f636d85ec87fb1
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Sin
+      Id: g=6a21999b290062cd8204c120f96b0e6c
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Enabled
+      Id: g=746f859c14f81ad7d7899f39a1fd2087
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Errors
+      Id: g=69c48f88043260f117e2ec65f9b71c29
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: name
+      Id: g=e444e092d4a9f50641f7fef88d143e36
+      Type: BaseDataVariableType
+      DataType: String
+  - Class: Reference
+    Target: ns=23;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=60
+    Direction: Forward
+  - Name: Store
+    Id: g=3c91733f8fb93aa8c3d88aa20975a4f4
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/factory_day_1/DataStores/DbRecipesDemo"
+    Children:
+    - Name: Kind
+      Id: g=2193aa663e2a1c236db540eb87be7724
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: TargetNode
+    Id: g=f603689aaf232f226ee1115b2e1fdd07
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/factory_day_1/Model/RecipesVariables"
+    Children:
+    - Name: Kind
+      Id: g=f6403a5cf70a36df5eaa2f217340bfeb
+      Type: PropertyType
+      DataType: NodeId
+  - Name: EditModel
+    Id: g=467b9883d5ba27e11b5df2b2a4ea9e89
+    Type: BaseObjectType
+    Children:
+    - Name: Area
+      Id: g=3117aa8b77a8c8979d3c54e18a805d46
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Sin
+      Id: g=7351a776dbdcfd9bd4844609df307077
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Enabled
+      Id: g=987f26cae8a15eaf1e1999f073aec594
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Errors
+      Id: g=69945747befdaf6a5648e670dbf91290
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: name
+      Id: g=6cf3e3839b3160c415b31109a52042ce
+      Type: BaseDataVariableType
+      DataType: String
